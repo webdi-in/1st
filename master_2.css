@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2? 가족= 노토+산스+KR:wght@100;300;500;700;900 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.box_size{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.box1{background-color: #fff;}
+.box2{background-color: #F7EA5C;}
+.box3{background-color: #CDCAD3;}
+.box4{
+    background-image: url(img/c_05.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: #000;
+}
+
+.wrap{
+    position: absolute;
+    width: 1100px;
+    height: 900px;
+}
+
+.b1_img01{
+    position: inherit;
+    top: 137px;
+}
+
+.b1_img02{
+    top: 137px;
+    right: 0px;
+    position: inherit;
+}
+
+.b1_cont{
+    bottom: 0px;
+    position: inherit;
+    width: 270px;
+    left: 325px;
+    bottom: 139px;
+    text-align: right;
+
+    font-family: 'Noto Sans KR',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    letter-spacing: -0.06em;
+    line-height: 1.4;
+}
+
+.box2 > .wrap{
+    background-image: url('img/c_03.png');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.b2_cont{
+    position: inherit;
+    top: 50px;
+
+    font-family: 'Noto Sans KR',
+    sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    letter-spacing: -0.06em;
+    line-height: 1.4;
+}
+
+.box3 > .wrap{
+    background-image: url('img/c_04.png');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+.b3_cont{
+    position: inherit;
+    top: 52px;
+    border: 0px solid blue;
+
+    font-family: 'Noto Sans KR',
+    sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    letter-spacing: -0.06em;
+    line-height: 1.4;
+}
+
+.box4 > .wrap{
+    background-image: url('img/c_05.png');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
+.b4{
+    position: inherit;
+    border: 0px solid blue;
+    width: 100%;
+}
+
+.b4_cont01{
+    top: 81px;
+    display: flex;
+    justify-content: center;
+}
+.b4_cont02{
+    top: 667px;
+
+    font-family: Noto Sans KR;
+    font-weight: Medium;
+    font-size: 23px;
+    color: #fff;
+    letter-spacing: -0.06em;
+    line-height: 1.4;
+    text-align: center;
+}
+.b4_cont03{
+    top: 743px;
+
+    font-family: Noto Sans KR;
+    font-weight: Medium;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: -0.06em;
+    line-height: 2.1;
+    text-align: center;
+}
+.b4_cont04{
+    top: 796px;
+    display: flex;
+    justify-content: center;
+}
+
+.b4_cont04 > a > img:hover{
+    filter: drop-shadow(0px 0px 8px #fff);
+}
